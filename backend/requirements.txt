@@ -1,0 +1,25 @@
+# PyTorch (CUDA 버전에 맞게 설치 필요)
+torch
+torchvision
+
+# 이미지 처리
+numpy
+opencv-python
+pillow
+
+# FastAPI 서버
+fastapi
+uvicorn[standard]
+pydantic
+
+# YOLOv8
+ultralytics
+
+# COCO 데이터셋 처리
+pycocotools
+
+# Gemini API
+supervision
+
+# 기타
+pyyaml

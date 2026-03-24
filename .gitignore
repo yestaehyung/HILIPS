@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+
+# ML models & checkpoints (large files)
+backend/checkpoints/
+backend/trained_models/
+backend/runs/
+backend/training_datasets/
+backend/annotations/
+*.pt
+*.pth
+*.onnx
+
+# SAM2 model
+backend/sam2/
+
+# Node.js
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large images (not needed in repo)
+*.png
+
+# Playwright
+.playwright-mcp/
+
+# Claude Code
+.claude/
+
+# User study data (separate concern)
+user-study/
+softwarex_userstudy/
