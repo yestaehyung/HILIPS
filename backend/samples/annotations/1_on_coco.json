@@ -1,0 +1,153 @@
+{
+  "info": {
+    "description": "SAM2 Generated Annotations",
+    "version": "1.0",
+    "year": 2026,
+    "contributor": "Grounded-SAM-2",
+    "date_created": "2026-01-14T14:26:21.399178"
+  },
+  "licenses": [
+    {
+      "id": 1,
+      "name": "Unknown",
+      "url": ""
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "width": 1920,
+      "height": 1080,
+      "file_name": "1_on.jpg",
+      "license": 1,
+      "date_captured": "2026-01-14T14:26:21.399178"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "DOOR",
+      "supercategory": "thing"
+    },
+    {
+      "id": 2,
+      "name": "JOG",
+      "supercategory": "thing"
+    },
+    {
+      "id": 3,
+      "name": "MEMORY",
+      "supercategory": "thing"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1768366968866,
+      "image_id": 1,
+      "category_id": 1,
+      "segmentation": [
+        [
+          787.0,
+          508.0,
+          782.0,
+          511.0,
+          782.0,
+          533.0,
+          786.0,
+          537.0,
+          795.0,
+          538.0,
+          799.0,
+          536.0,
+          799.0,
+          512.0,
+          796.0,
+          509.0
+        ]
+      ],
+      "bbox": [
+        782.0,
+        508.0,
+        17.0,
+        30.0
+      ],
+      "area": 518.0,
+      "iscrowd": 0,
+      "predicted_iou": 0.921875,
+      "stability_score": 0.921875,
+      "external_id": "polygon-1768366968866",
+      "color": "#ef4444",
+      "class_id_external": "door"
+    },
+    {
+      "id": 1768366974969,
+      "image_id": 1,
+      "category_id": 3,
+      "segmentation": [
+        [
+          1377.0,
+          295.0,
+          1351.0,
+          295.0,
+          1340.0,
+          301.0,
+          1340.0,
+          343.0,
+          1376.0,
+          339.0
+        ]
+      ],
+      "bbox": [
+        1338.0,
+        294.0,
+        41.0,
+        49.0
+      ],
+      "area": 1944.0,
+      "iscrowd": 0,
+      "predicted_iou": 0.9453125,
+      "stability_score": 0.9453125,
+      "external_id": "polygon-1768366974969",
+      "color": "#eab308",
+      "class_id_external": "memory"
+    },
+    {
+      "id": 1768366976133,
+      "image_id": 1,
+      "category_id": 2,
+      "segmentation": [
+        [
+          1493.0,
+          288.0,
+          1465.0,
+          288.0,
+          1450.0,
+          294.0,
+          1449.0,
+          339.0,
+          1485.0,
+          339.0,
+          1492.0,
+          334.0
+        ]
+      ],
+      "bbox": [
+        1448.0,
+        287.0,
+        47.0,
+        53.0
+      ],
+      "area": 2387.0,
+      "iscrowd": 0,
+      "predicted_iou": 0.96875,
+      "stability_score": 0.96875,
+      "external_id": "polygon-1768366976133",
+      "color": "#f97316",
+      "class_id_external": "jog"
+    }
+  ],
+  "metadata": {
+    "needs_review": false,
+    "reviewed_at": "2026-01-14T05:26:21.293Z"
+  }
+}

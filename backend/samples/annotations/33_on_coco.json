@@ -1,0 +1,125 @@
+{
+  "info": {
+    "description": "YOLO Batch Inference Annotations",
+    "version": "1.0",
+    "date_created": "2026-03-23T07:24:59.500195"
+  },
+  "images": [
+    {
+      "id": 1,
+      "width": 1920,
+      "height": 1080,
+      "file_name": "33_on.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "DOOR",
+      "supercategory": "thing"
+    },
+    {
+      "id": 2,
+      "name": "JOG",
+      "supercategory": "thing"
+    },
+    {
+      "id": 3,
+      "name": "MEMORY",
+      "supercategory": "thing"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "segmentation": [
+        [
+          274.43963623046875,
+          604.2705078125,
+          316.04913330078125,
+          604.2705078125,
+          316.04913330078125,
+          645.81640625,
+          274.43963623046875,
+          645.81640625
+        ]
+      ],
+      "bbox": [
+        274.43963623046875,
+        604.2705078125,
+        41.6094970703125,
+        41.5458984375
+      ],
+      "area": 1728.703939318657,
+      "iscrowd": 0,
+      "confidence": 0.9641032218933105,
+      "auto_labeled": true,
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "segmentation": [
+        [
+          1322.122802734375,
+          356.6020202636719,
+          1368.8642578125,
+          356.6020202636719,
+          1368.8642578125,
+          401.7036437988281,
+          1322.122802734375,
+          401.7036437988281
+        ]
+      ],
+      "bbox": [
+        1322.122802734375,
+        356.6020202636719,
+        46.741455078125,
+        45.10162353515625
+      ],
+      "area": 2108.115510419011,
+      "iscrowd": 0,
+      "confidence": 0.9395987391471863,
+      "auto_labeled": true,
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 3,
+      "segmentation": [
+        [
+          1206.7386474609375,
+          357.20452880859375,
+          1250.865234375,
+          357.20452880859375,
+          1250.865234375,
+          400.54833984375,
+          1206.7386474609375,
+          400.54833984375
+        ]
+      ],
+      "bbox": [
+        1206.7386474609375,
+        357.20452880859375,
+        44.1265869140625,
+        43.34381103515625
+      ],
+      "area": 1912.6144448295236,
+      "iscrowd": 0,
+      "confidence": 0.8306260704994202,
+      "auto_labeled": true,
+      "needs_review": false
+    }
+  ],
+  "metadata": {
+    "model_id": "b7c23513",
+    "batch_inference": true,
+    "auto_labeled": true,
+    "needs_review": false,
+    "created_at": "2026-03-23T07:24:59.500200"
+  }
+}

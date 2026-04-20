@@ -1,0 +1,140 @@
+{
+  "info": {
+    "description": "SAM2 Generated Annotations",
+    "version": "1.0",
+    "year": 2026,
+    "contributor": "Grounded-SAM-2",
+    "date_created": "2026-01-14T14:28:55.392786"
+  },
+  "licenses": [
+    {
+      "id": 1,
+      "name": "Unknown",
+      "url": ""
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "width": 1920,
+      "height": 1080,
+      "file_name": "60_on.jpg",
+      "license": 1,
+      "date_captured": "2026-01-14T14:28:55.392786"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "DOOR",
+      "supercategory": "thing"
+    },
+    {
+      "id": 2,
+      "name": "JOG",
+      "supercategory": "thing"
+    },
+    {
+      "id": 3,
+      "name": "MEMORY",
+      "supercategory": "thing"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "segmentation": [
+        [
+          367.10467529296875,
+          546.5011596679688,
+          388.57269287109375,
+          546.5011596679688,
+          388.57269287109375,
+          568.191650390625,
+          367.10467529296875,
+          568.191650390625
+        ]
+      ],
+      "bbox": [
+        367.10467529296875,
+        546.5011596679688,
+        21.468017578125,
+        21.69049072265625
+      ],
+      "area": 465.6518361121416,
+      "iscrowd": 0,
+      "predicted_iou": 0.8906728625297546,
+      "stability_score": 0.8906728625297546,
+      "external_id": "polygon-1",
+      "source": "yolo",
+      "color": "#ef4444",
+      "class_id_external": "door"
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "segmentation": [
+        [
+          908.67138671875,
+          461.4583740234375,
+          933.1910400390625,
+          461.4583740234375,
+          933.1910400390625,
+          486.34771728515625,
+          908.67138671875,
+          486.34771728515625
+        ]
+      ],
+      "bbox": [
+        908.67138671875,
+        461.4583740234375,
+        24.5196533203125,
+        24.88934326171875
+      ],
+      "area": 610.2780681475997,
+      "iscrowd": 0,
+      "predicted_iou": 0.6994264721870422,
+      "stability_score": 0.6994264721870422,
+      "external_id": "polygon-2",
+      "color": "#f97316",
+      "class_id_external": "jog"
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 3,
+      "segmentation": [
+        [
+          844.6959228515625,
+          453.95928955078125,
+          869.8932495117188,
+          453.95928955078125,
+          869.8932495117188,
+          480.2720031738281,
+          844.6959228515625,
+          480.2720031738281
+        ]
+      ],
+      "bbox": [
+        844.6959228515625,
+        453.95928955078125,
+        25.19732666015625,
+        26.312713623046875
+      ],
+      "area": 663.0100404750556,
+      "iscrowd": 0,
+      "predicted_iou": 0.6110989451408386,
+      "stability_score": 0.6110989451408386,
+      "external_id": "polygon-3",
+      "color": "#eab308",
+      "class_id_external": "memory"
+    }
+  ],
+  "metadata": {
+    "needs_review": false,
+    "reviewed_at": "2026-01-14T05:28:55.286Z"
+  }
+}

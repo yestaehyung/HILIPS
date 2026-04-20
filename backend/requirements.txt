@@ -1,0 +1,34 @@
+# HILIPS backend dependencies
+# Python >= 3.10
+
+# Deep learning (install the build that matches your CUDA version)
+torch
+torchvision
+
+# Image I/O
+numpy
+opencv-python
+pillow
+
+# Web framework
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# Object detection
+ultralytics
+
+# Dataset handling
+pycocotools
+
+# Annotation utilities
+supervision
+
+# Google Gemini API (multimodal LLM used in cold-start labeling).
+# The codebase imports both the legacy and the new SDK surfaces.
+google-generativeai
+google-genai
+
+# Misc
+pyyaml

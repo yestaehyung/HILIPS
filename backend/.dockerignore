@@ -1,0 +1,17 @@
+__pycache__
+*.py[cod]
+.ruff_cache
+.ipynb_checkpoints
+*.bak
+*.log
+runs
+trained_models
+training_datasets
+annotations
+images
+checkpoints
+notebooks
+.DS_Store
+.claude
+*.pt
+!examples/panel_detector/best_model.pt
